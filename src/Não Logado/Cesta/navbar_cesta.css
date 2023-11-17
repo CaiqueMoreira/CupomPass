@@ -1,0 +1,50 @@
+/*Nav superior, onde está a barra de pesquisa*/
+.navbar1_0 {
+    width: 100%;
+    height: 120px;
+    list-style: none;
+    background-color: #368986;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*Img med control*/
+
+.img2 {
+    width: 100px;
+    position: relative;
+    left: -40px;
+}
+
+
+/*Informações sobre entrada tipo texto (barra de pesquisa)*/
+.Pontuação {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    position: relative;
+    left: -60px;
+    font-weight: bold;
+
+}
+
+
+#campo-perfil{
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+     
+}
+
+#Perfil-logado{
+    width: 70px;
+    height: 70px;
+}
+

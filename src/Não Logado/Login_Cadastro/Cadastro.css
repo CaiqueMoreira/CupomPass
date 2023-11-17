@@ -1,0 +1,107 @@
+/* Estilos para o contêiner principal */
+.Cadastro {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+ul.campos-list li {
+    list-style: none; 
+}
+
+#cadastro-titulo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para os campos de entrada e rótulos */
+.campo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.campo label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.campo input {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Preenche o espaço restante à direita */
+}
+
+.endereco0 {
+    display: inline-flex;
+    justify-content: flex-end; /* Alinhe à direita */
+    width: 100%; /* Adicione 100% de largura para preencher a linha */
+    margin-bottom: 5px;
+}
+
+.endereco1 label{
+    position: relative;
+    font-weight: bold;
+    margin-right: 13px;
+
+}
+
+.endereco2 label {
+    position: relative;
+    font-weight: bold;
+    margin-right: 9px;
+    
+}
+
+.endereco3 label{
+    position: relative;
+    font-weight: bold;
+    margin-right: 7px;
+    
+}
+
+.endereco1 input{
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.endereco2 input {
+    width: 100px; 
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.endereco3 input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 96px;
+
+}
+
+
+/* Estilos para os botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.botoes button {
+    flex: 1;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#cancelar-cadastro {
+    margin-right: 20px;
+}

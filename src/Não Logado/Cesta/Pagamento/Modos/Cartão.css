@@ -1,0 +1,34 @@
+/* Estilos para o container de pagamento */
+.payment-container-cartão {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: transparent;
+    border: transparent;
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o botão de voltar */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #00347f;
+}

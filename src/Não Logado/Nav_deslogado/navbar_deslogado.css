@@ -1,0 +1,141 @@
+/*Nav superior, onde está a barra de pesquisa*/
+.navbar1 {
+    width: 100%;
+    height: 120px;
+    list-style: none;
+    background-color: #368986;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*Img med control*/
+
+.img {
+    width: 100px;
+    position: relative;
+    left: -40px;
+}
+
+
+/*Informações sobre entrada tipo texto (barra de pesquisa)*/
+.Pontuação {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    position: relative;
+    left: 60px;
+    font-weight: bold;
+
+}
+
+
+.Botão_Cesta {
+    background-color: transparent;
+    border: none;
+
+    width: 60px;
+    height: 40px;
+    position: relative;
+    right: -200px;
+}
+
+.Botão_Cesta:active {
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 6px;
+}
+
+.Botão_Cesta:hover{
+    cursor: pointer;
+}
+
+
+
+.img_Botão_Cesta {
+    width: 50px;
+    height: 45px;
+    background-image: url('../../Img/cesta.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Cadastre-se {
+
+
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    right: -30px;
+    font-family: monospace;
+
+
+}
+
+.Cadastre-se:active {
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+
+}
+
+.Cadastre-se:hover{
+    cursor: pointer;
+}
+
+/*Segunda Nav superior, onde contem informações das categorias*/
+.navbar2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5d7e62;
+
+
+
+}
+
+/*Trata de forma conjunta os sintomas*/
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: 'Graduate', cursive;
+    padding: 10px;
+
+}
+
+/*Trata de forma particular os sintomas*/
+.item {
+    padding-left: 3em;
+    margin-right: 4em;
+
+}
+
+/*Altera as informações dos textos de categorias*/
+.item a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*Altera as informações quando o mouse está em cima dos textos da navbar2*/
+.item a:hover {
+    color: blue;
+
+}
+
+/*Altera as informações quando o mouse está em cima do icone FaBaars categorias.*/
+.item_categorias:hover {
+    color: blue;
+    cursor: pointer;
+}

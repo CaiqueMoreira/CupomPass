@@ -1,0 +1,108 @@
+/* Estilos para o contêiner de pagamento */
+.payment-container {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para o título de pagamento */
+  .payment-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para os métodos de pagamento */
+  .payment-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-method input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para os detalhes do cartão de crédito */
+  .credit-card-details {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .credit-card-details.visible {
+    display: block;
+  }
+  
+  .credit-card-details label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .credit-card-details input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .credit-card-details input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .credit-card-details input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  .credit-card-details .cpf input[type="text"] {
+    width: 100%;
+  }
+  
+  .credit-card-details .cpf input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  .credit-card-details .cpf input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Estilos para os botões */
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .buttons-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .buttons-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .buttons-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttons-container button:active {
+    background-color: #00347f;
+  }
+  

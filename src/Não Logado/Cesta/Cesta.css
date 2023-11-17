@@ -1,0 +1,127 @@
+/* Estilos para o container da cesta de carrinho */
+.cart-container {
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para a tabela */
+#cart-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cart-table th {
+    background-color: #ccc;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#cart-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+/* Estilos para os botões de quantidade */
+.quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quantity-button:hover {
+    background-color: #0056b3;
+}
+
+.quantity-button:active {
+    background-color: #00347f;
+}
+
+/* Estilos para o resumo da cesta */
+.cart-summary {
+    display: flex;
+
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.cart-summary-subtotal,
+.cart-summary-discount,
+.cart-summary-total,
+.cart-summary-buttons {
+    flex: 1;
+}
+
+.cart-summary-subtotal,
+.cart-summary-discount,
+.cart-summary-total {
+    display: flex;
+
+    margin-bottom: 10px;
+}
+
+.cart-summary-subtotal label,
+.cart-summary-discount label,
+.cart-summary-total label {
+    font-weight: bold;
+}
+
+.cart-summary-discount input {
+    height: 20px;
+    border: transparent;
+    margin-left: 5px;
+}
+
+.cart-summary-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-summary-total label {
+    margin-right: 10px;
+    /* Adicione margem entre a etiqueta e o valor Total */
+}
+
+.cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-button:hover {
+    background-color: #0056b3;
+}
+
+.cart-button:active {
+    background-color: #00347f;
+}

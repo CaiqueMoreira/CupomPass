@@ -1,0 +1,158 @@
+p {
+    color: black;
+
+
+}
+
+#containerprincipal {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.Principal_class {
+
+    background-color: #1e5989;
+    border-radius: 10px;
+
+}
+
+.Principal_class {
+    width: 800px;
+    height: 100%;
+    padding: 5px;
+    margin-top: 10%;
+}
+
+.Secundaria_class {
+
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagem-titulo {
+    display: inline-flex;
+    margin: 10px 5px 0px 50px;
+
+}
+
+.imagem_remedio {
+    width: 230px;
+    height: 100%;
+
+}
+
+.img_medicamento {
+
+    width: 100%;
+}
+
+.titulo-serve-para {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo-serve-para p {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Titulo_medicamento {
+    font-size: 18px;
+    color: lightblue;
+    font-weight: 100;
+    padding: 5px;
+
+}
+
+
+.serve-desc {
+    margin-top: 5px;
+    display: inline;
+    width: 400px;
+    padding: 5px;
+    height: 185px;
+    /* Altura da caixa*/
+
+}
+
+.ServePara_medicamento {
+    font-weight: bold;
+
+}
+
+.ServePara_medicamento, .DescricaoServePara {
+    text-align: justify;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.Linha3 {
+    width: 400px;
+    align-items: center;
+
+}
+
+.PrecoBulaCarrinho {
+    position: relative;
+    top: -20px;
+}
+
+.PrecoBulaCarrinho li {
+    padding: 3px 4px 3px 4px;
+    display: inline-flex;
+    text-decoration: none;
+
+
+}
+
+
+.Preço_medicamento {
+    border-radius: 4px;
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+.Bula_medicamento {
+
+    padding: 4px 4px 5px 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgray;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.Bula_medicamento:active {
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-weight: none;
+
+}
+
+.Adicionaraocarrinho_medicamento {
+    padding: 4px 4px 5px 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgray;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+.Adicionaraocarrinho_medicamento:active {
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-weight: none;
+
+}

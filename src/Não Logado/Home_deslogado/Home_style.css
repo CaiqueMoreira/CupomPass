@@ -1,0 +1,42 @@
+
+/*Conjunto dos 4 medicamentos*/
+.Medicamentos-Fileira-1{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    height: 60%;
+}
+
+.DescRemediosLink{
+    text-decoration: none;
+}
+
+/*Informações de forma individual de cada medicamento*/
+.Medicamentos-group-1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;
+    background-color:  #FFFFFF;
+    height: 100%;
+}
+
+/*Edições na imagem*/
+.imgDipirona1g{
+width: 60%;
+padding: 0px;
+
+
+}
+
+/*Informações das descrições*/
+.descript-information-medicament {
+    border-top: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 0px 0px 4px 4px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
